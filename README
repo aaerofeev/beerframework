@@ -1,1 +1,21 @@
-/* Test README file */
+Simple PHP framework
+
+Create controller in ./classes/controller/<controller name>.php
+<code>
+<?php
+class Controller_Index extends Controller_Layout {}
+</code>
+
+Create action in controller
+<code>
+public function actionIndex()
+{
+	/* Action body */
+}
+</code>
+
+Create viewpath to controller and viewfile to action in
+./visual/views/<controller/<action>.php
+
+Customize layouts in ./visula/layout/<layout name>.php
+default layout index.php
