@@ -1,18 +1,12 @@
 Simple PHP framework
 
 Create controller in ./classes/controller/<controller name>.php
-<code>
-<?php
-class Controller_Index extends Controller_Layout {}
-</code>
+
+Code: class Controller_Index extends Controller_Layout {}
+
 
 Create action in controller
-<code>
-public function actionIndex()
-{
-	/* Action body */
-}
-</code>
+Code: public function actionIndex(){/* Action body */}
 
 Create viewpath to controller and viewfile to action in
 ./visual/views/<controller/<action>.php
